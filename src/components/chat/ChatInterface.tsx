@@ -409,6 +409,15 @@ export function ChatInterface() {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' })
   }
 
+  const scrollToLatestMessage = () => {
+    // Find the last message element and scroll it into view
+    const messageElements = document.querySelectorAll('[data-message-id]')
+    if (messageElements.length > 0) {
+      const lastMessage = messageElements[messageElements.length - 1]
+      lastMessage.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    }
+  }
+
   useEffect(() => {
     scrollToBottom()
   }, [messages, activeToolCalls])
@@ -586,6 +595,11 @@ export function ChatInterface() {
     setIsLoading(true)
     setError(null)
 
+    // Scroll to show the user's message and upcoming reply
+    setTimeout(() => {
+      scrollToLatestMessage()
+    }, 100)
+
     try {
       // Use rate limit queue
       const result = await rateLimitQueue.add(() => 
@@ -709,6 +723,7 @@ export function ChatInterface() {
           {messages.map((message) => (
             <motion.div
               key={message.id}
+              data-message-id={message.id}
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -20 }}
