@@ -19,8 +19,8 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL("https://difc.property"),
   title: {
-    default: "DIFC.property | Premium Real Estate & District Intelligence for Dubai International Financial Centre",
-    template: "%s | DIFC.property",
+    default: "DIFC Property | Premium Real Estate & District Intelligence for Dubai International Financial Centre",
+    template: "%s | DIFC Property",
   },
   description: "Discover luxury properties for sale in DIFC, Dubai. Browse apartments, penthouses, and premium residences in Burj Daman, Index Tower, Limestone House, and Eden House Zaabeel. Your curated guide to DIFC real estate.",
   keywords: ["DIFC properties for sale", "DIFC Dubai property", "luxury apartments DIFC", "DIFC real estate", "DIFC property for sale", "DIFC Dubai", "Burj Daman", "Index Tower", "DIFC Heights"],
@@ -31,6 +31,19 @@ export const metadata: Metadata = {
     email: false,
     address: false,
     telephone: false,
+  },
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+    ],
+    apple: [
+      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+    ],
+    other: [
+      { rel: "manifest", url: "/site.webmanifest" },
+    ],
   },
   openGraph: {
     type: "website",
