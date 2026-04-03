@@ -91,12 +91,12 @@ export function HeroCarousel() {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden bg-[#1A1815]">
       {/* Carousel */}
-      <div className="absolute inset-0" ref={emblaRef}>
+      <div className="absolute inset-0 overflow-hidden" ref={emblaRef}>
         <div className="flex h-full">
           {heroSlides.map((slide, index) => (
             <div
               key={slide.id}
-              className="relative flex-[0_0_100%] min-h-screen"
+              className="relative flex-[0_0_100%] min-h-screen overflow-hidden"
             >
               {/* Background Image with Ken Burns effect */}
               <div className="absolute inset-0">
@@ -201,8 +201,8 @@ export function HeroCarousel() {
         </div>
       </div>
 
-      {/* Navigation Arrows - Rectangular */}
-      <div className="absolute bottom-24 sm:bottom-32 left-2 right-2 sm:left-4 sm:right-4 z-20 flex justify-between pointer-events-none">
+      {/* Navigation Arrows - Hidden on mobile, visible on sm+ */}
+      <div className="absolute bottom-24 sm:bottom-32 left-2 right-2 sm:left-4 sm:right-4 z-20 hidden sm:flex justify-between pointer-events-none">
         <button
           onClick={scrollPrev}
           className="pointer-events-auto flex h-12 w-12 items-center justify-center border border-white/20 bg-black/30 backdrop-blur-sm text-white hover:bg-[#B8956B] hover:border-[#B8956B] transition-all duration-300"
