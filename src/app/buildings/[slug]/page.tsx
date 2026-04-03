@@ -68,7 +68,7 @@ export default async function BuildingPage({ params }: BuildingPageProps) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(buildingSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
-      <div className="min-h-screen bg-white pt-16 lg:pt-20">
+      <div className="min-h-screen bg-[#FDFCFB] pt-16 lg:pt-20">
         {/* Hero */}
         <div className="relative aspect-[21/9] w-full overflow-hidden">
           {building.images[0] ? (
@@ -80,11 +80,11 @@ export default async function BuildingPage({ params }: BuildingPageProps) {
               priority
             />
           ) : (
-            <div className="flex h-full items-center justify-center bg-stone-200">
-              <span className="text-stone-400">{building.name}</span>
+            <div className="flex h-full items-center justify-center bg-[#EDE9E4]">
+              <span className="text-[#8B7F71]">{building.name}</span>
             </div>
           )}
-          <div className="absolute inset-0 bg-gradient-to-t from-stone-900/80 via-stone-900/20 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#1A1815]/80 via-[#1A1815]/20 to-transparent" />
           
           <div className="absolute bottom-0 left-0 right-0">
             <div className="container mx-auto px-4 py-8 sm:px-6 lg:px-8">
@@ -95,7 +95,7 @@ export default async function BuildingPage({ params }: BuildingPageProps) {
                 <ArrowLeft className="h-4 w-4" />
                 Back to properties
               </Link>
-              <h1 className="font-serif text-4xl font-bold text-white sm:text-5xl lg:text-6xl">
+              <h1 className="font-serif text-4xl font-normal text-white sm:text-5xl lg:text-6xl leading-[1.15]">
                 {building.name}
               </h1>
               <div className="mt-4 flex flex-wrap items-center gap-4 text-white/80">
@@ -123,43 +123,43 @@ export default async function BuildingPage({ params }: BuildingPageProps) {
             <div className="lg:col-span-2 space-y-8">
               {/* Description */}
               <div>
-                <h2 className="font-serif text-2xl font-bold text-stone-900 mb-4">
+                <h2 className="font-serif text-2xl font-normal text-[#1A1815] mb-4">
                   About {building.name}
                 </h2>
-                <p className="text-stone-600 leading-relaxed text-lg">
+                <p className="text-[#6B5F53] leading-relaxed text-lg">
                   {building.description}
                 </p>
               </div>
 
               {/* Building Stats */}
               <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
-                <div className="rounded-lg bg-stone-50 p-4">
-                  <p className="text-sm text-stone-500">Developer</p>
-                  <p className="font-medium text-stone-900">{building.developer}</p>
+                <div className="bg-[#F7F5F2] p-4">
+                  <p className="text-sm text-[#8B7F71]">Developer</p>
+                  <p className="font-medium text-[#1A1815]">{building.developer}</p>
                 </div>
-                <div className="rounded-lg bg-stone-50 p-4">
-                  <p className="text-sm text-stone-500">Completed</p>
-                  <p className="font-medium text-stone-900">{building.completionYear}</p>
+                <div className="bg-[#F7F5F2] p-4">
+                  <p className="text-sm text-[#8B7F71]">Completed</p>
+                  <p className="font-medium text-[#1A1815]">{building.completionYear}</p>
                 </div>
-                <div className="rounded-lg bg-stone-50 p-4">
-                  <p className="text-sm text-stone-500">Total Units</p>
-                  <p className="font-medium text-stone-900">{building.totalUnits}</p>
+                <div className="bg-[#F7F5F2] p-4">
+                  <p className="text-sm text-[#8B7F71]">Total Units</p>
+                  <p className="font-medium text-[#1A1815]">{building.totalUnits}</p>
                 </div>
-                <div className="rounded-lg bg-stone-50 p-4">
-                  <p className="text-sm text-stone-500">Type</p>
-                  <p className="font-medium text-stone-900 capitalize">{building.buildingType.replace('-', ' ')}</p>
+                <div className="bg-[#F7F5F2] p-4">
+                  <p className="text-sm text-[#8B7F71]">Type</p>
+                  <p className="font-medium text-[#1A1815] capitalize">{building.buildingType.replace('-', ' ')}</p>
                 </div>
               </div>
 
               {/* Amenities */}
               <div>
-                <h2 className="font-serif text-2xl font-bold text-stone-900 mb-4">
+                <h2 className="font-serif text-2xl font-normal text-[#1A1815] mb-4">
                   Building Amenities
                 </h2>
                 <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
                   {building.amenities.map((amenity, index) => (
-                    <div key={index} className="flex items-center gap-2 text-stone-600">
-                      <Check className="h-4 w-4 text-amber-700" />
+                    <div key={index} className="flex items-center gap-2 text-[#6B5F53]">
+                      <Check className="h-4 w-4 text-[#B8956B]" />
                       <span>{amenity}</span>
                     </div>
                   ))}
@@ -169,10 +169,10 @@ export default async function BuildingPage({ params }: BuildingPageProps) {
               {/* Location */}
               {building.latitude && building.longitude && (
                 <div>
-                  <h2 className="font-serif text-2xl font-bold text-stone-900 mb-4">
+                  <h2 className="font-serif text-2xl font-normal text-[#1A1815] mb-4">
                     Location
                   </h2>
-                  <div className="aspect-video rounded-lg bg-stone-100 overflow-hidden">
+                  <div className="aspect-video bg-[#F7F5F2] overflow-hidden">
                     <iframe
                       src={`https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.5!2d${building.longitude}!3d${building.latitude}!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjbCsDEyJzQwLjAiTiA1NcKwMTYnNDEuMCJF!5e0!3m2!1sen!2sae!4v1`}
                       width="100%"
@@ -189,26 +189,26 @@ export default async function BuildingPage({ params }: BuildingPageProps) {
 
             {/* Right Column - CTA */}
             <div className="space-y-6">
-              <div className="rounded-lg border border-stone-200 bg-white p-6 shadow-sm sticky top-24">
-              <h3 className="font-serif text-lg font-bold text-stone-900 mb-2">
+              <div className="border border-[#EDE9E4] bg-[#FDFCFB] p-6 sticky top-24">
+              <h3 className="font-serif text-lg font-normal text-[#1A1815] mb-2">
                 Properties in {building.name}
               </h3>
-              <p className="text-sm text-stone-600 mb-6">
+              <p className="text-sm text-[#6B5F53] mb-6">
                 {buildingListings.length} properties currently available for sale
               </p>
                 
                 <a
                   href="#listings"
-                  className="flex w-full items-center justify-center gap-2 rounded-lg bg-stone-900 px-4 py-3 text-base font-medium text-white hover:bg-stone-800 transition-colors"
+                  className="flex w-full items-center justify-center gap-2 bg-[#1A1815] px-4 py-3 text-sm font-medium text-white hover:bg-[#2D2924] transition-colors"
                 >
                   View Available Properties
                   <ArrowRight className="h-5 w-5" />
                 </a>
 
-                <div className="mt-6 pt-6 border-t border-stone-200 text-center">
-                  <p className="text-sm text-stone-500">
+                <div className="mt-6 pt-6 border-t border-[#EDE9E4] text-center">
+                  <p className="text-sm text-[#8B7F71]">
                     Want to sell your property?<br />
-                    <a href="mailto:contact@difc.property" className="text-amber-700 hover:text-amber-800">
+                    <a href="mailto:contact@difc.property" className="text-[#B8956B] hover:text-[#2D5A4A]">
                       Contact our team
                     </a>
                   </p>
@@ -219,7 +219,7 @@ export default async function BuildingPage({ params }: BuildingPageProps) {
 
           {/* Available Listings */}
           <div id="listings" className="mt-16">
-            <h2 className="font-serif text-2xl font-bold text-stone-900 mb-8">
+            <h2 className="font-serif text-2xl font-normal text-[#1A1815] mb-8">
               Available Properties in {building.name}
             </h2>
             
@@ -237,10 +237,10 @@ export default async function BuildingPage({ params }: BuildingPageProps) {
                 ))}
               </div>
             ) : (
-              <div className="rounded-lg bg-stone-50 p-8 text-center">
-                <p className="text-lg text-stone-600">No properties currently available in {building.name}.</p>
-                <p className="mt-2 text-sm text-stone-500">
-                  <Link href="/listings" className="text-amber-700 hover:text-amber-800">
+              <div className="bg-[#F7F5F2] p-8 text-center">
+                <p className="text-lg text-[#6B5F53]">No properties currently available in {building.name}.</p>
+                <p className="mt-2 text-sm text-[#8B7F71]">
+                  <Link href="/listings" className="text-[#B8956B] hover:text-[#2D5A4A]">
                     View all DIFC properties
                   </Link>
                 </p>

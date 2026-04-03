@@ -27,17 +27,17 @@ export default function NewsPage() {
   const regularArticles = filteredArticles.filter(a => !a.featured)
 
   return (
-    <div className="min-h-screen bg-white pt-16 lg:pt-20">
+    <div className="min-h-screen bg-[#FDFCFB] pt-16 lg:pt-20">
       {/* Header */}
-      <div className="border-b border-stone-200 bg-stone-50">
+      <div className="border-b border-[#EDE9E4] bg-[#F7F5F2]">
         <div className="container mx-auto px-4 py-8 sm:px-6 lg:px-8">
-          <p className="text-sm font-medium uppercase tracking-wider text-amber-700">
+          <p className="text-xs font-medium uppercase tracking-[0.2em] text-[#B8956B]">
             DIFC Intelligence
           </p>
-          <h1 className="mt-2 font-serif text-3xl font-bold tracking-tight text-stone-900 sm:text-4xl">
+          <h1 className="mt-2 font-serif text-3xl font-normal text-[#1A1815] sm:text-4xl">
             Latest News from DIFC
           </h1>
-          <p className="mt-4 max-w-2xl text-lg text-stone-600">
+          <p className="mt-4 max-w-2xl text-lg text-[#6B5F53]">
             Stay informed with the latest developments, business updates, and district intelligence 
             from Dubai International Financial Centre.
           </p>
@@ -45,17 +45,17 @@ export default function NewsPage() {
       </div>
 
       {/* Filters */}
-      <div className="border-b border-stone-200">
+      <div className="border-b border-[#EDE9E4]">
         <div className="container mx-auto px-4 py-4 sm:px-6 lg:px-8">
           <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
             {/* Category Filter */}
             <div className="flex flex-wrap gap-2">
               <button
                 onClick={() => setSelectedCategory(null)}
-                className={`rounded-full px-4 py-2 text-sm font-medium transition-colors ${
+                className={`px-4 py-2 text-sm font-medium transition-colors ${
                   selectedCategory === null
-                    ? 'bg-stone-900 text-white'
-                    : 'bg-stone-100 text-stone-700 hover:bg-stone-200'
+                    ? 'bg-[#1A1815] text-white'
+                    : 'bg-[#F7F5F2] text-[#6B5F53] hover:bg-[#EDE9E4]'
                 }`}
               >
                 All News
@@ -64,10 +64,10 @@ export default function NewsPage() {
                 <button
                   key={category.slug}
                   onClick={() => setSelectedCategory(category.slug)}
-                  className={`rounded-full px-4 py-2 text-sm font-medium transition-colors ${
+                  className={`px-4 py-2 text-sm font-medium transition-colors ${
                     selectedCategory === category.slug
-                      ? 'bg-stone-900 text-white'
-                      : 'bg-stone-100 text-stone-700 hover:bg-stone-200'
+                      ? 'bg-[#1A1815] text-white'
+                      : 'bg-[#F7F5F2] text-[#6B5F53] hover:bg-[#EDE9E4]'
                   }`}
                 >
                   {category.name}
@@ -77,13 +77,13 @@ export default function NewsPage() {
 
             {/* Search */}
             <div className="relative">
-              <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-stone-400" />
+              <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-[#8B7F71]" />
               <input
                 type="text"
                 placeholder="Search articles..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full rounded-lg border border-stone-200 bg-white pl-10 pr-4 py-2 text-sm focus:border-amber-600 focus:outline-none focus:ring-1 focus:ring-amber-600 sm:w-64"
+                className="w-full border border-[#EDE9E4] bg-[#FDFCFB] pl-10 pr-4 py-2 text-sm focus:border-[#B8956B] focus:outline-none focus:ring-1 focus:ring-[#B8956B] sm:w-64"
               />
             </div>
           </div>
@@ -94,13 +94,13 @@ export default function NewsPage() {
       <div className="container mx-auto px-4 py-8 sm:px-6 lg:px-8">
         {filteredArticles.length === 0 ? (
           <div className="text-center py-12">
-            <p className="text-lg text-stone-600">No articles found matching your criteria.</p>
+            <p className="text-lg text-[#6B5F53]">No articles found matching your criteria.</p>
             <button
               onClick={() => {
                 setSelectedCategory(null)
                 setSearchQuery('')
               }}
-              className="mt-4 text-sm text-amber-700 hover:text-amber-800"
+              className="mt-4 text-sm text-[#B8956B] hover:text-[#2D5A4A]"
             >
               Clear filters
             </button>
@@ -110,7 +110,7 @@ export default function NewsPage() {
             {/* Featured Articles */}
             {featuredArticles.length > 0 && !selectedCategory && !searchQuery && (
               <div className="mb-12">
-                <h2 className="font-serif text-2xl font-bold text-stone-900 mb-6">Featured Stories</h2>
+                <h2 className="font-serif text-2xl font-normal text-[#1A1815] mb-6">Featured Stories</h2>
                 <div className="grid grid-cols-1 gap-8 lg:grid-cols-2">
                   {featuredArticles.slice(0, 2).map((article) => (
                     <ArticleCard
@@ -129,7 +129,7 @@ export default function NewsPage() {
 
             {/* All Articles */}
             <div>
-              <h2 className="font-serif text-2xl font-bold text-stone-900 mb-6">
+              <h2 className="font-serif text-2xl font-normal text-[#1A1815] mb-6">
                 {selectedCategory ? categoriesData.find(c => c.slug === selectedCategory)?.name : 'All Articles'}
               </h2>
               <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">

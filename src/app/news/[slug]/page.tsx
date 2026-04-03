@@ -84,13 +84,13 @@ export default async function NewsArticlePage({ params }: NewsArticlePageProps) 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
-      <div className="min-h-screen bg-white pt-16 lg:pt-20">
+      <div className="min-h-screen bg-[#FDFCFB] pt-16 lg:pt-20">
         {/* Back Link */}
-        <div className="border-b border-stone-200">
+        <div className="border-b border-[#EDE9E4]">
           <div className="container mx-auto px-4 py-4 sm:px-6 lg:px-8">
             <Link
               href="/news"
-              className="inline-flex items-center gap-2 text-sm font-medium text-stone-600 hover:text-stone-900 transition-colors"
+              className="inline-flex items-center gap-2 text-sm font-medium text-[#6B5F53] hover:text-[#1A1815] transition-colors"
             >
               <ArrowLeft className="h-4 w-4" />
               Back to news
@@ -103,18 +103,18 @@ export default async function NewsArticlePage({ params }: NewsArticlePageProps) 
           <div className="mx-auto max-w-3xl">
             {/* Category */}
             {category && (
-              <span className="inline-block rounded-full bg-amber-100 px-3 py-1 text-sm font-medium text-amber-800 mb-4">
+              <span className="inline-block px-3 py-1 text-xs font-medium uppercase tracking-[0.2em] text-[#B8956B] mb-4">
                 {category.name}
               </span>
             )}
 
             {/* Title */}
-            <h1 className="font-serif text-3xl font-bold tracking-tight text-stone-900 sm:text-4xl lg:text-5xl">
+            <h1 className="font-serif text-3xl font-normal text-[#1A1815] sm:text-4xl lg:text-5xl leading-[1.15]">
               {article.title}
             </h1>
 
             {/* Meta */}
-            <div className="mt-6 flex flex-wrap items-center gap-4 text-sm text-stone-600">
+            <div className="mt-6 flex flex-wrap items-center gap-4 text-sm text-[#6B5F53]">
               <div className="flex items-center gap-2">
                 <Calendar className="h-4 w-4" />
                 <time dateTime={new Date().toISOString()}>
@@ -135,7 +135,7 @@ export default async function NewsArticlePage({ params }: NewsArticlePageProps) 
                       href={article.sourceUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1 text-amber-700 hover:text-amber-800 transition-colors"
+                      className="inline-flex items-center gap-1 text-[#2D5A4A] hover:text-[#1F3D31] transition-colors"
                     >
                       {article.source}
                       <ExternalLink className="h-3 w-3" />
@@ -167,26 +167,26 @@ export default async function NewsArticlePage({ params }: NewsArticlePageProps) 
           <div className="mx-auto max-w-3xl">
             {/* Summary */}
             {(article.summary || article.excerpt) && (
-              <p className="mb-8 text-xl leading-relaxed text-stone-600 font-medium">
+              <p className="mb-8 text-xl leading-relaxed text-[#6B5F53]">
                 {article.summary || article.excerpt}
               </p>
             )}
 
             {/* Article Body */}
             <div 
-              className="prose prose-lg prose-stone max-w-none"
+              className="prose prose-lg max-w-none"
               dangerouslySetInnerHTML={{ __html: article.content }}
             />
 
             {/* Tags */}
             {article.tags.length > 0 && (
-              <div className="mt-12 pt-8 border-t border-stone-200">
+              <div className="mt-12 pt-8 border-t border-[#EDE9E4]">
                 <div className="flex flex-wrap items-center gap-2">
-                  <Tag className="h-4 w-4 text-stone-500" />
+                  <Tag className="h-4 w-4 text-[#8B7F71]" />
                   {article.tags.map((tag, index) => (
                     <span
                       key={index}
-                      className="text-sm text-stone-600"
+                      className="text-sm text-[#6B5F53]"
                     >
                       {tag}{index < article.tags.length - 1 ? ',' : ''}
                     </span>
@@ -199,9 +199,9 @@ export default async function NewsArticlePage({ params }: NewsArticlePageProps) 
 
         {/* Related Listings */}
         {relatedListings.length > 0 && (
-          <div className="border-t border-stone-200 bg-stone-50">
+          <div className="border-t border-[#EDE9E4] bg-[#F7F5F2]">
             <div className="container mx-auto px-4 py-12 sm:px-6 lg:px-8">
-              <h2 className="font-serif text-2xl font-bold text-stone-900 mb-8">
+              <h2 className="font-serif text-2xl font-normal text-[#1A1815] mb-8">
                 Related Properties
               </h2>
               <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -222,9 +222,9 @@ export default async function NewsArticlePage({ params }: NewsArticlePageProps) 
 
         {/* Related Articles */}
         {relatedArticles.length > 0 && (
-          <div className="border-t border-stone-200">
+          <div className="border-t border-[#EDE9E4]">
             <div className="container mx-auto px-4 py-12 sm:px-6 lg:px-8">
-              <h2 className="font-serif text-2xl font-bold text-stone-900 mb-8">
+              <h2 className="font-serif text-2xl font-normal text-[#1A1815] mb-8">
                 More {category?.name} News
               </h2>
               <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
