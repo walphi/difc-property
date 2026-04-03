@@ -1,0 +1,384 @@
+[
+  {
+    "id": "faq-why-invest-difc",
+    "question": "Why should I invest in DIFC property?",
+    "answer": "DIFC offers exceptional investment potential due to its status as Dubai's premier financial centre. Key benefits include: (1) Prime location in the heart of Dubai with excellent connectivity, (2) Strong rental yields averaging 5.5-6%, (3) High capital appreciation with 8% YoY price growth, (4) Premium lifestyle with world-class dining, art galleries, and Gate Village access, (5) Secure freehold ownership under DIFC legal framework, (6) Eligibility for UAE Golden Visa with AED 2M+ investment, and (7) Limited supply in a fully developed district ensuring sustained demand.",
+    "category": "general",
+    "intentTags": [
+      "investment",
+      "difc-benefits",
+      "why-difc"
+    ],
+    "relatedListings": [],
+    "relatedBuildings": [],
+    "relatedLegalContent": [],
+    "priority": 1,
+    "displayOnPages": [
+      "home",
+      "listings",
+      "prices"
+    ],
+    "targetKeywords": [
+      "why invest DIFC",
+      "DIFC property investment",
+      "invest in Dubai property"
+    ],
+    "performance": {
+      "views": 0,
+      "helpfulClicks": 0,
+      "lastUpdated": "2024-01-01T00:00:00.000Z"
+    },
+    "hermesTags": [
+      "investment",
+      "general",
+      "high-priority"
+    ],
+    "lastIngestedAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "faq-difc-property-prices",
+    "question": "What are current DIFC property prices?",
+    "answer": "As of Q4 2023, DIFC property prices average AED 3,850 per sqft, with variations by building and unit type. Burj Daman averages AED 4,200/sqft, Index Tower AED 3,950/sqft, and Eden House Zaabeel AED 4,500+/sqft for premium units. Entry-level 1-bedroom apartments start around AED 2.8M, while luxury penthouses can exceed AED 36M. Prices have grown 8% year-on-year, driven by strong demand and limited new supply.",
+    "category": "buying",
+    "intentTags": [
+      "prices",
+      "cost",
+      "investment"
+    ],
+    "relatedListings": [],
+    "relatedBuildings": [
+      "burj-daman",
+      "index-tower",
+      "eden-house-zaabeel"
+    ],
+    "relatedLegalContent": [],
+    "priority": 1,
+    "displayOnPages": [
+      "home",
+      "listings",
+      "prices"
+    ],
+    "targetKeywords": [
+      "DIFC property prices",
+      "DIFC apartment prices",
+      "cost of DIFC property"
+    ],
+    "performance": {
+      "views": 0,
+      "helpfulClicks": 0,
+      "lastUpdated": "2024-01-01T00:00:00.000Z"
+    },
+    "hermesTags": [
+      "prices",
+      "buying",
+      "high-priority"
+    ],
+    "lastIngestedAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "faq-golden-visa-property",
+    "question": "How do I get a UAE Golden Visa through DIFC property?",
+    "answer": "To obtain a 10-year UAE Golden Visa through DIFC property investment: (1) Purchase residential property worth minimum AED 2M, (2) Ensure property is registered with DIFC Real Property Register, (3) Maintain at least 50% equity (mortgage permitted), (4) Submit application through ICP or approved typing centers with title deed, passport, photos, and bank statements, (5) Complete medical fitness test, (6) Receive visa in 7-10 business days. The visa covers you, spouse, and children. Property must be retained for visa duration. Always verify current requirements with official UAE government sources as regulations may change.",
+    "category": "golden-visa",
+    "intentTags": [
+      "golden-visa",
+      "residency",
+      "investment"
+    ],
+    "relatedListings": [],
+    "relatedBuildings": [],
+    "relatedLegalContent": [
+      "difc-golden-visa-requirements"
+    ],
+    "priority": 1,
+    "displayOnPages": [
+      "home",
+      "listings",
+      "golden-visa"
+    ],
+    "targetKeywords": [
+      "Golden Visa UAE",
+      "DIFC Golden Visa",
+      "property investment visa"
+    ],
+    "performance": {
+      "views": 0,
+      "helpfulClicks": 0,
+      "lastUpdated": "2024-01-01T00:00:00.000Z"
+    },
+    "hermesTags": [
+      "golden-visa",
+      "legal",
+      "high-priority"
+    ],
+    "lastIngestedAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "faq-difc-vs-freehold-dubai",
+    "question": "How is DIFC different from other Dubai freehold areas?",
+    "answer": "DIFC differs from other Dubai freehold areas in several key ways: (1) Legal Framework - DIFC operates under English common law through DIFC Courts, while other areas follow UAE civil law, (2) Financial Centre Status - DIFC is a special economic zone focused on finance, business, and professional services, (3) Supply Constraints - DIFC is fully developed with very limited new supply, making it more exclusive, (4) Premium Positioning - Buildings and residences in DIFC are positioned at the luxury end of the market, (5) Lifestyle - Gate Village and the financial district create a unique cosmopolitan atmosphere, (6) Investment Profile - Stronger rental yields and capital appreciation due to limited supply and high demand from finance professionals.",
+    "category": "general",
+    "intentTags": [
+      "difc-comparison",
+      "freehold",
+      "legal-framework"
+    ],
+    "relatedListings": [],
+    "relatedBuildings": [],
+    "relatedLegalContent": [
+      "difc-real-property-law-overview"
+    ],
+    "priority": 2,
+    "displayOnPages": [
+      "home",
+      "about"
+    ],
+    "targetKeywords": [
+      "DIFC vs Dubai",
+      "DIFC freehold",
+      "DIFC legal system"
+    ],
+    "performance": {
+      "views": 0,
+      "helpfulClicks": 0,
+      "lastUpdated": "2024-01-01T00:00:00.000Z"
+    },
+    "hermesTags": [
+      "general",
+      "legal",
+      "comparison"
+    ],
+    "lastIngestedAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "faq-property-registration-difc",
+    "question": "How does property registration work in DIFC?",
+    "answer": "Property registration in DIFC follows a streamlined digital process: (1) Execute Sale and Purchase Agreement, (2) Obtain NOC from developer (if applicable), (3) Submit documents to DIFC Real Property Register including title deed, SPA, passport copies, and proof of payment, (4) Pay registration fees (typically 2-4% of property value), (5) Receive new title deed within 5 business days. The DIFC Real Property Register provides state-backed title guarantees, ensuring registered owners have indefeasible title. All transactions must comply with DIFC Anti-Money Laundering regulations. Registration creates public record and protects against competing claims.",
+    "category": "legal",
+    "intentTags": [
+      "registration",
+      "legal-process",
+      "ownership"
+    ],
+    "relatedListings": [],
+    "relatedBuildings": [],
+    "relatedLegalContent": [
+      "difc-real-property-law-overview"
+    ],
+    "priority": 2,
+    "displayOnPages": [
+      "law",
+      "listings"
+    ],
+    "targetKeywords": [
+      "DIFC property registration",
+      "title deed DIFC",
+      "property transfer DIFC"
+    ],
+    "performance": {
+      "views": 0,
+      "helpfulClicks": 0,
+      "lastUpdated": "2024-01-01T00:00:00.000Z"
+    },
+    "hermesTags": [
+      "legal",
+      "registration",
+      "ownership"
+    ],
+    "lastIngestedAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "faq-rental-yields-difc",
+    "question": "What rental yields can I expect in DIFC?",
+    "answer": "DIFC rental yields typically range from 5.5% to 6% gross annually, making it one of the stronger performing luxury districts in Dubai. 1-bedroom apartments average 5.5-5.8%, 2-bedroom units 5.7-6%, and 3+ bedroom properties 5.5-5.9%. Yields vary by building, with Burj Daman and Index Tower performing at the higher end. Net yields after service charges and management fees typically range 4.5-5.2%. The rental market remains strong due to consistent demand from finance professionals working in DIFC. Tenants are often corporate executives with stable incomes, resulting in lower vacancy rates and reliable rental income.",
+    "category": "buying",
+    "intentTags": [
+      "rental-yields",
+      "investment",
+      "returns"
+    ],
+    "relatedListings": [],
+    "relatedBuildings": [
+      "burj-daman",
+      "index-tower"
+    ],
+    "relatedLegalContent": [],
+    "priority": 2,
+    "displayOnPages": [
+      "prices",
+      "listings"
+    ],
+    "targetKeywords": [
+      "DIFC rental yields",
+      "DIFC investment returns",
+      "rental income DIFC"
+    ],
+    "performance": {
+      "views": 0,
+      "helpfulClicks": 0,
+      "lastUpdated": "2024-01-01T00:00:00.000Z"
+    },
+    "hermesTags": [
+      "prices",
+      "investment",
+      "rental"
+    ],
+    "lastIngestedAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "faq-best-building-difc",
+    "question": "Which is the best building to buy in DIFC?",
+    "answer": "The 'best' building depends on your priorities: (1) Burj Daman - Best for Zabeel views, direct Gate Village access, and strong investment performance. Iconic 65-storey tower with premium amenities, (2) Index Tower - Best for Burj Khalifa views and architectural prestige. Foster + Partners design with 80 floors and sky lounge, (3) Limestone House - Best for boutique luxury and privacy. Low-rise exclusive development with only 88 units, (4) Eden House Zaabeel - Best for ultra-luxury and new development. Latest addition with infinity pool and spa, (5) DIFC Heights - Best for future appreciation (2029 completion). Final plot in original DIFC district. Each building offers distinct advantages - consider your lifestyle preferences, budget, and investment timeline.",
+    "category": "buying",
+    "intentTags": [
+      "building-selection",
+      "comparison",
+      "recommendation"
+    ],
+    "relatedListings": [],
+    "relatedBuildings": [
+      "burj-daman",
+      "index-tower",
+      "limestone-house",
+      "eden-house-zaabeel",
+      "difc-heights"
+    ],
+    "relatedLegalContent": [],
+    "priority": 1,
+    "displayOnPages": [
+      "listings",
+      "home"
+    ],
+    "targetKeywords": [
+      "best building DIFC",
+      "which building DIFC",
+      "DIFC building comparison"
+    ],
+    "performance": {
+      "views": 0,
+      "helpfulClicks": 0,
+      "lastUpdated": "2024-01-01T00:00:00.000Z"
+    },
+    "hermesTags": [
+      "buying",
+      "buildings",
+      "recommendation"
+    ],
+    "lastIngestedAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "faq-living-in-difc",
+    "question": "What's it like living in DIFC?",
+    "answer": "Living in DIFC offers a unique cosmopolitan lifestyle combining finance district convenience with luxury residential comfort: (1) Location - Heart of Dubai with easy access to Downtown, Business Bay, and Dubai International Airport, (2) Dining & Entertainment - Gate Village provides world-class restaurants, art galleries, and cafes within walking distance, (3) Community - Professional, international community of finance executives, entrepreneurs, and diplomats, (4) Convenience - Everything within walking distance or short drive - supermarkets, gyms, medical facilities, (5) Architecture - Stunning modern towers with panoramic city views, (6) Safety - 24/7 security and professional building management in all residential towers, (7) Lifestyle Events - Regular art exhibitions, food festivals, and community gatherings in Gate Village. It's ideal for professionals who value convenience, luxury, and an urban lifestyle.",
+    "category": "general",
+    "intentTags": [
+      "lifestyle",
+      "living",
+      "community"
+    ],
+    "relatedListings": [],
+    "relatedBuildings": [],
+    "relatedLegalContent": [],
+    "priority": 2,
+    "displayOnPages": [
+      "living",
+      "home"
+    ],
+    "targetKeywords": [
+      "living in DIFC",
+      "DIFC lifestyle",
+      "DIFC community"
+    ],
+    "performance": {
+      "views": 0,
+      "helpfulClicks": 0,
+      "lastUpdated": "2024-01-01T00:00:00.000Z"
+    },
+    "hermesTags": [
+      "living",
+      "lifestyle",
+      "community"
+    ],
+    "lastIngestedAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "faq-service-charges-difc",
+    "question": "What are service charges in DIFC buildings?",
+    "answer": "Service charges in DIFC typically range from AED 15-25 per sqft annually, varying by building and amenities. These cover: building maintenance, common area cleaning, security, concierge services, amenities upkeep (pool, gym), building insurance, and reserve fund contributions. Burj Daman averages AED 18-22/sqft, Index Tower AED 16-20/sqft, Limestone House AED 15-18/sqft, and Eden House Zaabeel AED 20-25/sqft. Service charges are set by each building's Owners Association based on annual budgets. Owners have the right to review budgets, challenge unreasonable charges, and vote on spending at General Assembly meetings. Transparency is required under DIFC Strata Title Law.",
+    "category": "buying",
+    "intentTags": [
+      "service-charges",
+      "costs",
+      "ownership"
+    ],
+    "relatedListings": [],
+    "relatedBuildings": [
+      "burj-daman",
+      "index-tower",
+      "limestone-house",
+      "eden-house-zaabeel"
+    ],
+    "relatedLegalContent": [
+      "difc-strata-title-law"
+    ],
+    "priority": 3,
+    "displayOnPages": [
+      "prices",
+      "listings",
+      "law"
+    ],
+    "targetKeywords": [
+      "DIFC service charges",
+      "maintenance fees DIFC",
+      "building charges DIFC"
+    ],
+    "performance": {
+      "views": 0,
+      "helpfulClicks": 0,
+      "lastUpdated": "2024-01-01T00:00:00.000Z"
+    },
+    "hermesTags": [
+      "legal",
+      "costs",
+      "ownership"
+    ],
+    "lastIngestedAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "faq-off-plan-vs-ready",
+    "question": "Should I buy off-plan or ready property in DIFC?",
+    "answer": "Both options have merits: Ready properties offer immediate rental income, no construction risk, established community, and ability to inspect before buying. Off-plan properties (like DIFC Heights Tower, completing 2029) may offer lower entry prices, payment plans, newer designs, and warranties. However, off-plan carries construction delays risk, developer reliability concerns, and no immediate returns. In DIFC specifically, ready properties dominate since the district is fully developed. DIFC Heights Tower (2029) is the only major off-plan opportunity on the final available plot. For investors wanting immediate returns, ready properties are recommended. For those with longer timelines seeking the newest amenities, DIFC Heights off-plan may be attractive. Always verify developer credentials and escrow arrangements for off-plan purchases.",
+    "category": "buying",
+    "intentTags": [
+      "off-plan",
+      "ready-property",
+      "investment-strategy"
+    ],
+    "relatedListings": [],
+    "relatedBuildings": [
+      "difc-heights"
+    ],
+    "relatedLegalContent": [],
+    "priority": 2,
+    "displayOnPages": [
+      "listings",
+      "prices"
+    ],
+    "targetKeywords": [
+      "off plan DIFC",
+      "ready property DIFC",
+      "buy off plan vs ready"
+    ],
+    "performance": {
+      "views": 0,
+      "helpfulClicks": 0,
+      "lastUpdated": "2024-01-01T00:00:00.000Z"
+    },
+    "hermesTags": [
+      "buying",
+      "investment",
+      "off-plan"
+    ],
+    "lastIngestedAt": "2024-01-01T00:00:00.000Z"
+  }
+]

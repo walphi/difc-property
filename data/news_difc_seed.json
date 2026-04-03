@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "difc-heights-tower-launch-2024",
+    "title": "DIFC Heights Tower: New Ultra-Luxury Development Announced",
+    "excerpt": "DIFC unveils plans for the Heights Tower, a 70-storey ultra-luxury residential development featuring 180 exclusive residences with panoramic views of the Dubai skyline and Arabian Gulf.",
+    "category": "Developments",
+    "tags": ["new-development", "luxury-residences", "difc-heights"],
+    "featuredImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200",
+    "featured": true,
+    "publishedAt": "2024-01-25T08:00:00Z",
+    "author": "DIFC Press Office",
+    "sourceUrl": "https://difc.ae/news"
+  },
+  {
+    "slug": "difc-golden-visa-property-guide-2024",
+    "title": "Complete Guide: Golden Visa Through DIFC Property Investment",
+    "excerpt": "Everything you need to know about obtaining a UAE Golden Visa through property investment in DIFC. Minimum investment requirements, eligibility criteria, and application process explained.",
+    "category": "Legal",
+    "tags": ["golden-visa", "investment", "legal-guide", "residency"],
+    "featuredImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200",
+    "featured": true,
+    "publishedAt": "2024-01-20T10:00:00Z",
+    "author": "DIFC.Property Legal Team",
+    "sourceUrl": "https://difc.property/news"
+  },
+  {
+    "slug": "difc-property-market-report-q4-2023",
+    "title": "DIFC Property Market Report: Q4 2023 Performance Analysis",
+    "excerpt": "DIFC property prices increased by 8% year-on-year in Q4 2023, driven by strong demand for luxury apartments and limited new supply. Average price per sqft reached AED 3,850.",
+    "category": "Market Insights",
+    "tags": ["market-report", "price-analysis", "trends"],
+    "featuredImage": "https://images.unsplash.com/photo-1554469384-e58fac16e23f?w=1200",
+    "featured": true,
+    "publishedAt": "2024-01-15T14:00:00Z",
+    "author": "DIFC.Property Research",
+    "sourceUrl": "https://difc.property/market"
+  },
+  {
+    "slug": "gate-village-new-dining-concepts",
+    "title": "Three New Dining Concepts Opening at Gate Village This Spring",
+    "excerpt": "Gate Village welcomes three internationally acclaimed restaurants, enhancing DIFC's reputation as Dubai's premier culinary destination. New openings include a Michelin-starred concept.",
+    "category": "Lifestyle",
+    "tags": ["dining", "gate-village", "lifestyle", "food"],
+    "featuredImage": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200",
+    "featured": false,
+    "publishedAt": "2024-01-18T09:30:00Z",
+    "author": "DIFC Lifestyle",
+    "sourceUrl": "https://difc.ae/lifestyle"
+  },
+  {
+    "slug": "difc-real-property-law-update-2024",
+    "title": "Key Updates to DIFC Real Property Law: What Property Owners Should Know",
+    "excerpt": "Recent amendments to DIFC Real Property Law introduce new protections for property owners and streamlined processes for transactions. Summary of key changes for DIFC property investors.",
+    "category": "Legal",
+    "tags": ["property-law", "legal-update", "difc-law", "regulation"],
+    "featuredImage": "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?w=1200",
+    "featured": false,
+    "publishedAt": "2024-01-12T11:00:00Z",
+    "author": "Legal Advisory Team",
+    "sourceUrl": "https://difc.ae/legal"
+  }
+]

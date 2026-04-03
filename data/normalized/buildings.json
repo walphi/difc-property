@@ -1,0 +1,379 @@
+[
+  {
+    "slug": "burj-daman",
+    "name": "Burj Daman",
+    "description": "Burj Daman is a prestigious 65-storey mixed-use tower in the heart of DIFC, offering luxury residential apartments with stunning views of Zabeel and the Dubai skyline. The building features world-class amenities and direct access to the DIFC retail promenade.",
+    "developer": "DAMAC Properties",
+    "architect": null,
+    "address": "Sheikh Zayed Road, DIFC, Dubai",
+    "city": "Dubai",
+    "district": "DIFC",
+    "country": "UAE",
+    "latitude": 25.2115,
+    "longitude": 55.2768,
+    "completionYear": 2014,
+    "totalUnits": 273,
+    "totalFloors": 65,
+    "buildingType": "mixed-use",
+    "amenities": [
+      "Swimming Pool",
+      "Gym",
+      "Concierge",
+      "Retail Access",
+      "Secure Parking",
+      "24/7 Security",
+      "High-Speed Elevators",
+      "Meeting Rooms"
+    ],
+    "nearbyAmenities": [
+      "Gate Village",
+      "DIFC Retail Promenade",
+      "Metro Station",
+      "Fine Dining",
+      "Art Galleries"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1200"
+    ],
+    "featured": true,
+    "hermesTags": [
+      "difc",
+      "luxury-residential",
+      "mixed-use",
+      "zabeel-view",
+      "gate-village-access"
+    ],
+    "lastIngestedAt": "2024-01-01T00:00:00.000Z",
+    "enrichmentVersion": 1,
+    "seoMetadata": {
+      "title": "Burj Daman DIFC | Luxury Apartments & Penthouses for Sale",
+      "description": "Prestigious 65-storey tower in the heart of DIFC. Luxury residential apartments with stunning Zabeel and Dubai skyline views. World-class amenities and direct Gate Village access.",
+      "keywords": [
+        "Burj Daman",
+        "DIFC property",
+        "luxury apartments Dubai",
+        "DIFC apartments for sale",
+        "Zabeel view",
+        "Gate Village"
+      ],
+      "ogTitle": "Burj Daman DIFC | Luxury Residential Tower",
+      "ogDescription": "65-storey prestigious tower with stunning Zabeel views and world-class amenities.",
+      "ogImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1200",
+      "canonicalUrl": "https://difc.property/buildings/burj-daman"
+    }
+  },
+  {
+    "slug": "index-tower",
+    "name": "Index Tower",
+    "description": "Index Tower is an iconic 80-storey skyscraper in DIFC, featuring luxury residential apartments and premium commercial spaces. Designed by Foster + Partners, it offers panoramic views of Burj Khalifa and the Arabian Gulf.",
+    "developer": "Ithra Dubai",
+    "architect": "Foster + Partners",
+    "address": "DIFC, Dubai",
+    "city": "Dubai",
+    "district": "DIFC",
+    "country": "UAE",
+    "latitude": 25.2105,
+    "longitude": 55.2785,
+    "completionYear": 2011,
+    "totalUnits": 556,
+    "totalFloors": 80,
+    "buildingType": "mixed-use",
+    "amenities": [
+      "Sky Lounge",
+      "Fitness Center",
+      "Swimming Pool",
+      "Business Center",
+      "Concierge",
+      "Underground Parking",
+      "Retail Access",
+      "Conference Facilities"
+    ],
+    "nearbyAmenities": [
+      "DIFC Business District",
+      "Burj Khalifa District",
+      "Dubai Mall",
+      "Business Bay",
+      "Metro Access"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200"
+    ],
+    "featured": true,
+    "hermesTags": [
+      "difc",
+      "iconic",
+      "foster-partners",
+      "burj-khalifa-view",
+      "mixed-use"
+    ],
+    "lastIngestedAt": "2024-01-01T00:00:00.000Z",
+    "enrichmentVersion": 1,
+    "seoMetadata": {
+      "title": "Index Tower DIFC | Iconic Skyscraper by Foster + Partners",
+      "description": "Iconic 80-storey skyscraper designed by Foster + Partners. Luxury residential apartments with panoramic Burj Khalifa and Arabian Gulf views. Premium commercial spaces.",
+      "keywords": [
+        "Index Tower",
+        "Foster + Partners",
+        "DIFC apartments",
+        "Burj Khalifa view",
+        "luxury penthouses Dubai",
+        "iconic tower DIFC"
+      ],
+      "ogTitle": "Index Tower DIFC | Foster + Partners Design",
+      "ogDescription": "80-storey iconic tower with panoramic Burj Khalifa and Gulf views.",
+      "ogImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200",
+      "canonicalUrl": "https://difc.property/buildings/index-tower"
+    }
+  },
+  {
+    "slug": "limestone-house",
+    "name": "Limestone House",
+    "description": "Limestone House is an exclusive low-rise residential development in DIFC, offering spacious apartments with contemporary design and premium finishes. The boutique building provides privacy and tranquility within the financial district.",
+    "developer": "DIFC Investments",
+    "architect": null,
+    "address": "Gate Village, DIFC, Dubai",
+    "city": "Dubai",
+    "district": "DIFC",
+    "country": "UAE",
+    "latitude": 25.2095,
+    "longitude": 55.2775,
+    "completionYear": 2010,
+    "totalUnits": 88,
+    "totalFloors": 8,
+    "buildingType": "residential",
+    "amenities": [
+      "Private Garden",
+      "Fitness Center",
+      "Concierge",
+      "Secure Parking",
+      "Maid Service",
+      "Valet Parking",
+      "Storage",
+      "Close to Gate Village"
+    ],
+    "nearbyAmenities": [
+      "Gate Village",
+      "Art Galleries",
+      "Fine Dining",
+      "Cafes",
+      "Retail"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200"
+    ],
+    "featured": true,
+    "hermesTags": [
+      "difc",
+      "boutique",
+      "low-rise",
+      "exclusive",
+      "gate-village"
+    ],
+    "lastIngestedAt": "2024-01-01T00:00:00.000Z",
+    "enrichmentVersion": 1,
+    "seoMetadata": {
+      "title": "Limestone House DIFC | Exclusive Boutique Residences",
+      "description": "Exclusive low-rise boutique development in Gate Village DIFC. Spacious apartments with contemporary design and premium finishes. Privacy and tranquility in the financial district.",
+      "keywords": [
+        "Limestone House",
+        "DIFC boutique apartments",
+        "Gate Village",
+        "exclusive residences DIFC",
+        "low-rise luxury",
+        "private garden"
+      ],
+      "ogTitle": "Limestone House DIFC | Boutique Luxury Living",
+      "ogDescription": "Exclusive low-rise development with spacious apartments in Gate Village.",
+      "ogImage": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200",
+      "canonicalUrl": "https://difc.property/buildings/limestone-house"
+    }
+  },
+  {
+    "slug": "eden-house-zaabeel",
+    "name": "Eden House Zaabeel",
+    "description": "Eden House Zaabeel represents the pinnacle of luxury living in DIFC, featuring ultra-premium apartments and penthouses with breathtaking panoramic views. The development offers bespoke interiors and world-class amenities for discerning residents.",
+    "developer": "H&H Development",
+    "architect": null,
+    "address": "Zaabeel District, DIFC, Dubai",
+    "city": "Dubai",
+    "district": "DIFC",
+    "country": "UAE",
+    "latitude": 25.2125,
+    "longitude": 55.2755,
+    "completionYear": 2024,
+    "totalUnits": 143,
+    "totalFloors": 28,
+    "buildingType": "residential",
+    "amenities": [
+      "Infinity Pool",
+      "Private Cinema",
+      "Spa & Wellness",
+      "Sky Lounge",
+      "Concierge",
+      "Private Parking",
+      "Smart Home Systems",
+      "Chef Kitchen"
+    ],
+    "nearbyAmenities": [
+      "Zaabeel Park",
+      "DIFC District",
+      "Downtown Dubai",
+      "Burj Khalifa",
+      "Metro Access"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200"
+    ],
+    "featured": true,
+    "hermesTags": [
+      "difc",
+      "ultra-luxury",
+      "zaabeel",
+      "new-development",
+      "penthouse"
+    ],
+    "lastIngestedAt": "2024-01-01T00:00:00.000Z",
+    "enrichmentVersion": 1,
+    "seoMetadata": {
+      "title": "Eden House Zaabeel | Ultra-Luxury Residences in DIFC",
+      "description": "Pinnacle of luxury living in Zaabeel District DIFC. Ultra-premium apartments and penthouses with panoramic views. Bespoke interiors and world-class amenities.",
+      "keywords": [
+        "Eden House Zaabeel",
+        "DIFC ultra-luxury",
+        "Zaabeel apartments",
+        "luxury penthouses DIFC",
+        "new development 2024",
+        "panoramic views"
+      ],
+      "ogTitle": "Eden House Zaabeel | Ultra-Luxury DIFC Living",
+      "ogDescription": "Ultra-premium apartments and penthouses with panoramic views and bespoke interiors.",
+      "ogImage": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200",
+      "canonicalUrl": "https://difc.property/buildings/eden-house-zaabeel"
+    }
+  },
+  {
+    "slug": "central-park-towers",
+    "name": "Central Park Towers",
+    "description": "Central Park Towers at DIFC offers premium commercial and residential spaces with direct access to the Dubai Metro. The twin towers feature Grade A offices and luxury apartments with stunning park views.",
+    "developer": "Deyaar",
+    "architect": null,
+    "address": "DIFC, Dubai",
+    "city": "Dubai",
+    "district": "DIFC",
+    "country": "UAE",
+    "latitude": 25.2085,
+    "longitude": 55.2795,
+    "completionYear": 2014,
+    "totalUnits": 724,
+    "totalFloors": 45,
+    "buildingType": "mixed-use",
+    "amenities": [
+      "Retail Promenade",
+      "Metro Access",
+      "Fitness Center",
+      "Conference Facilities",
+      "Restaurants",
+      "Cafes",
+      "Business Lounge",
+      "Underground Parking"
+    ],
+    "nearbyAmenities": [
+      "Dubai Metro",
+      "DIFC District",
+      "Business Bay",
+      "Downtown Dubai",
+      "Shopping"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1577495508048-b635879837f1?w=1200"
+    ],
+    "featured": false,
+    "hermesTags": [
+      "difc",
+      "commercial",
+      "residential",
+      "metro-access",
+      "mixed-use"
+    ],
+    "lastIngestedAt": "2024-01-01T00:00:00.000Z",
+    "enrichmentVersion": 1,
+    "seoMetadata": {
+      "title": "Central Park Towers DIFC | Premium Commercial & Residential",
+      "description": "Twin towers offering premium commercial and residential spaces in DIFC. Direct Dubai Metro access, Grade A offices, and luxury apartments with park views.",
+      "keywords": [
+        "Central Park Towers",
+        "DIFC commercial space",
+        "Dubai Metro access",
+        "Grade A offices DIFC",
+        "mixed-use tower",
+        "DIFC residential"
+      ],
+      "ogTitle": "Central Park Towers DIFC | Premium Spaces",
+      "ogDescription": "Premium commercial and residential with direct Dubai Metro access.",
+      "ogImage": "https://images.unsplash.com/photo-1577495508048-b635879837f1?w=1200",
+      "canonicalUrl": "https://difc.property/buildings/central-park-towers"
+    }
+  },
+  {
+    "slug": "difc-heights",
+    "name": "DIFC Heights Tower",
+    "description": "DIFC Heights Tower is the latest luxury residential development in the district, offering contemporary apartments and duplex homes with premium finishes. Located on the final available plot in the original DIFC district.",
+    "developer": "DIFC Development",
+    "architect": null,
+    "address": "DIFC, Dubai",
+    "city": "Dubai",
+    "district": "DIFC",
+    "country": "UAE",
+    "latitude": 25.2135,
+    "longitude": 55.2745,
+    "completionYear": 2029,
+    "totalUnits": 366,
+    "totalFloors": 70,
+    "buildingType": "residential",
+    "amenities": [
+      "Sky Pool",
+      "Fitness Center",
+      "Children Play Area",
+      "Concierge",
+      "Underground Parking",
+      "Retail Access",
+      "Business Center",
+      "Lounge Areas"
+    ],
+    "nearbyAmenities": [
+      "DIFC District",
+      "Future Metro Extension",
+      "Gate Village",
+      "Zaabeel Park",
+      "Retail Promenade"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200"
+    ],
+    "featured": true,
+    "hermesTags": [
+      "difc",
+      "new-development",
+      "future-completion",
+      "luxury-residential",
+      "off-plan"
+    ],
+    "lastIngestedAt": "2024-01-01T00:00:00.000Z",
+    "enrichmentVersion": 1,
+    "seoMetadata": {
+      "title": "DIFC Heights Tower | New Luxury Development 2029",
+      "description": "Latest luxury residential development in DIFC. Contemporary apartments and duplex homes with premium finishes. Final available plot in original DIFC district. Completion 2029.",
+      "keywords": [
+        "DIFC Heights Tower",
+        "new development DIFC",
+        "off-plan apartments",
+        "luxury residential 2029",
+        "DIFC final plot"
+      ],
+      "ogTitle": "DIFC Heights Tower | New 2029 Development",
+      "ogDescription": "Contemporary apartments and duplex homes on final DIFC plot. Completion 2029.",
+      "ogImage": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200",
+      "canonicalUrl": "https://difc.property/buildings/difc-heights"
+    }
+  }
+]

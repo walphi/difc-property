@@ -1,0 +1,39 @@
+{
+  "generatedAt": "2026-04-01T06:47:02.835Z",
+  "analysisPeriod": {
+    "start": "2026-04-01T06:47:02.824Z",
+    "end": "2026-04-01T06:47:02.824Z",
+    "eventCount": 0,
+    "uniqueSessions": 0,
+    "daysAnalyzed": 1
+  },
+  "summary": {
+    "totalEvents": 0,
+    "totalCTAClicks": 0,
+    "conversionRate": 0,
+    "topPerformingPages": [],
+    "underperformingPages": []
+  },
+  "ctaRecommendations": [
+    {
+      "id": "insufficient-data",
+      "type": "general",
+      "currentLabel": "N/A",
+      "proposedLabel": "Collect more lead data",
+      "rationale": "Only 0 events recorded. Need minimum 100 events for reliable recommendations.",
+      "priority": "high",
+      "expectedImpact": "Enable data-driven optimization",
+      "confidence": 1,
+      "affectedPages": [
+        "all"
+      ],
+      "implementation": "Ensure LeadTrackingWrapper is active on all pages and CTAs have proper data-cta attributes"
+    }
+  ],
+  "faqRecommendations": [],
+  "whyPropertyRecommendations": [],
+  "experiments": [],
+  "generatedSkillDocuments": [
+    "C:\\Users\\phill\\Downloads\\2025\\difc-property\\difc-property\\hermes\\skills\\analyze-leads\\skill-1775026022825-6a395x1qf.md"
+  ]
+}

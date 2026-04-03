@@ -1,0 +1,117 @@
+[
+  {
+    "slug": "burj-daman-3br-full-floor-zabeel-view",
+    "title": "Full Floor 3 Bedroom in Burj Daman with Panoramic Zabeel View",
+    "price": 12500000,
+    "currency": "AED",
+    "bedrooms": 3,
+    "bathrooms": 4,
+    "sqft": 3850,
+    "propertyType": "apartment",
+    "buildingSlug": "burj-daman",
+    "description": "Exceptional full-floor residence in the prestigious Burj Daman tower. This 3-bedroom apartment offers panoramic views of Zabeel Park and the Dubai skyline. Features include premium finishes, smart home technology, and direct access to DIFC Gate Village amenities.",
+    "images": [
+      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1200",
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=1200"
+    ],
+    "view": "Zabeel Park & Dubai Skyline",
+    "featured": true,
+    "isNew": true,
+    "sourceAgent": "Edifice Real Estate",
+    "agentPhone": "+971562195566",
+    "sourceUrl": "https://propertyfinder.ae",
+    "createdAt": "2024-01-15T10:00:00Z"
+  },
+  {
+    "slug": "index-tower-penthouse-burj-khalifa-view",
+    "title": "Luxury Penthouse in Index Tower with Burj Khalifa Views",
+    "price": 28000000,
+    "currency": "AED",
+    "bedrooms": 4,
+    "bathrooms": 5,
+    "sqft": 5200,
+    "propertyType": "penthouse",
+    "buildingSlug": "index-tower",
+    "description": "Stunning penthouse residence in the iconic Index Tower designed by Foster + Partners. This 4-bedroom penthouse features double-height ceilings, private terrace, and uninterrupted views of the Burj Khalifa and Downtown Dubai.",
+    "images": [
+      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200",
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200"
+    ],
+    "view": "Burj Khalifa & Downtown Dubai",
+    "featured": true,
+    "isNew": false,
+    "sourceAgent": "Luxhabitat",
+    "agentPhone": "+971562195566",
+    "sourceUrl": "https://propertyfinder.ae",
+    "createdAt": "2024-01-10T14:30:00Z"
+  },
+  {
+    "slug": "limestone-house-2br-garden-view",
+    "title": "Serene 2 Bedroom in Limestone House with Private Garden",
+    "price": 6800000,
+    "currency": "AED",
+    "bedrooms": 2,
+    "bathrooms": 3,
+    "sqft": 2100,
+    "propertyType": "apartment",
+    "buildingSlug": "limestone-house",
+    "description": "Boutique residence in the exclusive Limestone House development. This 2-bedroom apartment offers garden views, premium finishes, and a tranquil setting within the heart of DIFC. Walking distance to Gate Village.",
+    "images": [
+      "https://images.unsplash.com/photo-1449844908441-8829872d2607?w=1200",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1200"
+    ],
+    "view": "Garden & Courtyard",
+    "featured": false,
+    "isNew": true,
+    "sourceAgent": "Edifice Real Estate",
+    "agentPhone": "+971562195566",
+    "sourceUrl": "https://propertyfinder.ae",
+    "createdAt": "2024-01-20T09:15:00Z"
+  },
+  {
+    "slug": "burj-daman-duplex-4br-private-pool",
+    "title": "Rare Duplex with Private Pool in Burj Daman",
+    "price": 18500000,
+    "currency": "AED",
+    "bedrooms": 4,
+    "bathrooms": 5,
+    "sqft": 4500,
+    "propertyType": "duplex",
+    "buildingSlug": "burj-daman",
+    "description": "Exceptional duplex residence featuring a private pool and double-height living spaces. This 4-bedroom home in Burj Daman offers the ultimate in luxury living with direct access to DIFC amenities and premium concierge services.",
+    "images": [
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200"
+    ],
+    "view": "Dubai Skyline",
+    "featured": true,
+    "isNew": false,
+    "sourceAgent": "Knight Frank",
+    "agentPhone": "+971562195566",
+    "sourceUrl": "https://knightfrank.ae",
+    "createdAt": "2024-01-08T16:45:00Z"
+  },
+  {
+    "slug": "index-tower-2br-high-floor-marina-view",
+    "title": "High Floor 2 Bedroom with Dubai Marina Views",
+    "price": 8500000,
+    "currency": "AED",
+    "bedrooms": 2,
+    "bathrooms": 3,
+    "sqft": 1650,
+    "propertyType": "apartment",
+    "buildingSlug": "index-tower",
+    "description": "Bright and spacious 2-bedroom apartment on a high floor of Index Tower. Features floor-to-ceiling windows with views towards Dubai Marina, modern kitchen, and access to building amenities including pool and fitness center.",
+    "images": [
+      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?w=1200",
+      "https://images.unsplash.com/photo-1560185893-a55cbc8c57e8?w=1200"
+    ],
+    "view": "Dubai Marina & Sea",
+    "featured": false,
+    "isNew": true,
+    "sourceAgent": "Edifice Real Estate",
+    "agentPhone": "+971562195566",
+    "sourceUrl": "https://propertyfinder.ae",
+    "createdAt": "2024-01-22T11:20:00Z"
+  }
+]
