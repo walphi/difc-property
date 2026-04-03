@@ -418,9 +418,14 @@ export function ChatInterface() {
     }
   }
 
+  // Only scroll to bottom when new messages are added (not on initial load)
+  const [hasUserInteracted, setHasUserInteracted] = useState(false)
+  
   useEffect(() => {
-    scrollToBottom()
-  }, [messages, activeToolCalls])
+    if (hasUserInteracted) {
+      scrollToBottom()
+    }
+  }, [messages, activeToolCalls, hasUserInteracted])
 
   const handleToolExecution = async (toolCalls: ToolCall[]) => {
     const updatedCalls: ToolCall[] = []
@@ -594,6 +599,7 @@ export function ChatInterface() {
     setInput('')
     setIsLoading(true)
     setError(null)
+    setHasUserInteracted(true)
 
     // Scroll to show the user's message and upcoming reply
     setTimeout(() => {
